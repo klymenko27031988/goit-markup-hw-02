@@ -85,7 +85,7 @@
     text-transform: uppercase;
     
     color: var(--primary-white-color);
-    background-color: black;
+    background-color: #2F303A;
     }
     
     /* Button */
@@ -116,7 +116,7 @@
     .button.secondary:hover,
     .button.secondary:focus {
     color: var(--primary-white-color);
-    background-color: var(--accent-color);
+    background-color: #188CE8;
     }
     
     /* Uppercase titles */
@@ -188,7 +188,7 @@
     .page-footer {
     background: var(--footer-bg-color);
     }
-    
+     
     /*-------------------------------------- address ---------------------------------*/
     
     .address .link{
@@ -201,6 +201,11 @@
     .address .link.address-location {
     color: var(--primary-white-color);
     }
+    .address .link:hover,
+    .address .link:hover:focus {
+        color: var(--accent-color);
+    }
+    
     
     /*----------------------- Subscription ----------------------------------------*/
     
