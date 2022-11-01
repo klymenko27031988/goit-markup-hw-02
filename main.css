@@ -15,7 +15,7 @@
     /* General styles */
     
     body {
-    font-family: 'Roboto', 'Raleway';
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.03em;
@@ -62,7 +62,7 @@
     /* Website nav */
     
     .nav {
-    font-family: 'Roboto'
+   
     font-weight: 500;
     letter-spacing: 0.02em;
     }
@@ -79,8 +79,13 @@
     
     /* hero section */
     
+
+
+    .hero {
+        background-color:#2F303A; ;
+    }
     .hero-title {
-    font-family: 'Roboto'
+    
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -95,13 +100,14 @@
     /* Button */
     
     .button {
-    font-family: 'Roboto'
+    
     font-size: 16px;
     text-decoration: none;
+    cursor: pointer;
     }
     
     .button.primary {
-    font-family: 'Roboto'
+        
     font-weight: 700;
     line-height: 1.87;
     letter-spacing: 0.06em;
@@ -111,7 +117,8 @@
     }
     
     .button.secondary {
-    font-family: 'Roboto'
+        
+    
     font-weight: 500;
     line-height: 1.62;
     letter-spacing: 0.03em;
@@ -130,9 +137,9 @@
     }
 
     .button.service {
-    font-family: ROBOTO;
+    
     font-weight: 700;
-    Font size: 16px
+    font-size: 16px;
     letter-spacing: 6%;
     color: var(--primary-white-color);
     background-color: #188CE8;
@@ -147,7 +154,7 @@
     /* Uppercase titles */
     
     .uptitle {
-    font-family: ROBOTO;
+    
     font-size: inherit;
     font-weight: 700;
     text-transform: uppercase;
@@ -156,12 +163,12 @@
     /* features */
     
     .uptitle.features-title {
-    font-family: ROBOTO;
+    
     color: var(--primary-text-color);
     }
     
     .features-text {
-    font-family: ROBOTO;
+   
     line-height: 1.71;
     color: var(--secondary-text-color);
     }
@@ -169,7 +176,7 @@
     /* General section title*/
     
     .section-title {
-    font-family: ROBOTO;
+   
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -181,7 +188,7 @@
     /* Work section */
     
     .uptitle.work-title {
-    font-family: ROBOTO;
+    
     color: var(--primary-white-color);
     background: var(--work-title-bg);
     }
@@ -189,13 +196,13 @@
     /* Team section */
     
     .team {
-    font-family: ROBOTO;
+   
     font-size: 16px;
     line-height: 1.19;
     }
     
     .team .team-members-name {
-    font-family: ROBOTO;
+    
     font-size: inherit;
     font-weight: 500;
     
@@ -218,14 +225,14 @@
     /* --------------------Footer---------------------------------- */
     
     .page-footer {
-     font-family: ROBOTO;
+     
     background: var(--footer-bg-color);
     }
      
     /*-------------------------------------- address ---------------------------------*/
     
     .address .link{
-    font-family: ROBOTO;
+    
     font-style: normal;
     line-height: 1.71;
     
@@ -233,7 +240,7 @@
     }
     
     .address .link.address-location {
-    font-family: ROBOTO;
+    
     color: var(--primary-white-color);
     }
     .address .link:hover,
@@ -245,7 +252,7 @@
     /*----------------------- Subscription ----------------------------------------*/
     
     .uptitle.signup-title {
-    font-family: ROBOTO;
+    
     color: var(--primary-white-color);
     }
     
@@ -265,7 +272,7 @@
     
     
     .portfolio-sample {
-    font-family: ROBOTO;
+    
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -275,7 +282,7 @@
     }
     
     .portfolio-info {
-    font-family: ROBOTO;
+   
     font-size: 16px;
     line-height: 1.87;
     
@@ -283,7 +290,7 @@
     }
     
     .portfolio-description {
-    font-family: ROBOTO;
+    
     font-size: 18px;
     line-height: 1.56;
     
